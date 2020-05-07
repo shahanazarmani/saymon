@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	outline: 0;
+}
+.image {
+	width: 100%;
+}
+body{
+	font-family: 'Source Serif Pro', serif;
+	font-size: 13px;
+}
+.full_wrapper{
+	width:1000px;
+	margin:0 auto;
+	padding: 0 20px;
+}
+#head{
+	background:#27292F;
+	overflow: hidden;
+	padding: 30px 20px;
+}
+.left_logo{
+	float: left;
+	width:35%;
+	color:#fff;
+}
+.left_logo h1 {
+	font-size: 38px;
+}
+.right_menu{
+	width:65%;
+	float: left;
+	text-align: right;
+}
+.main_menu ul{
+	margin: 0;
+	padding: 0;
+}
+.main_menu ul li{
+	list-style-type: none;
+	display: inline;
+}
+.main_menu ul a{
+	display: inline-block;
+	text-decoration: none;
+	color:#fff;
+	padding: 15px 5px;
+}
+.top_search{
+	position: relative;
+}
+.top_search input[type="text"]{
+	background: #1F232C;
+	color:#fff;
+	padding: 10px 15px;
+	border:none;
+	border-radius: 15px;
+	min-width: 200px;
+
+}
+.top_search button {
+	position: absolute;
+	right: 1%;
+	top: 10%;
+	background: #11131A;
+	border: none;
+	color: #fff;
+	padding: 5px;
+	cursor: pointer;
+	height: 28px;
+	width:28px;
+	border-radius: 50%;
+
+}
+.ct_area{
+	background:#e7e7e7;
+}
+.ct_content{
+	padding: 50px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+.ct_content h2{
+	flex-basis: 68%;
+	font-size: 28px;
+	line-height: 36px;
+}
+.ct_content a{
+	text-decoration: none;
+	background:#1F232C;
+	color:#fff;
+	padding: 13px 48px;
+	flex-basis: 25%;
+	text-align: center;
+	font-size: 25px;
+	border-radius: 15px;
+
+}
+#services{
+	padding: 50px 20px;
+}
+#services li{
+	display: inline-block;
+	width:18.9%;
+	background-image: url(https://placehold.it/100x100);
+	background-repeat: no-repeat;
+	padding-left: 11%;
+	height: 100px;
+	padding-right: 3%;
+}
+.single_services h4 {
+	font-size: 22px;
+	padding-bottom: 8px;
+	position: relative;
+}
+.single_services h4:after{
+	content: "";
+	position: absolute;
+	width:44%;
+	height: 3px;
+	background: #1F232C;
+	left: 0;
+	bottom: 0;
+
+}
+.single_services p {
+	padding-top: 8px;
+	color:#979797;
+}
+#facilis{
+	padding: 80px 20px;
+}
+.facilis_title{
+	text-align: center;
+	position: relative;
+	margin: 5% 0;
+}
+.facilis_border{
+	width:100%;
+	background: #1f232c;
+	height: 3px;
+}
+.facilis_title h3{
+	position: absolute;
+	width:100%;
+	z-index: 10;
+	top: -12px;
+	font-size: 20px;
+}
+.facilis_title h3:before{
+	content: "";
+	position: absolute;
+	width: 25%;
+	background:#fff;
+	left: 50%;
+	top:0;
+	height: 100%;
+	transform: translateX(-50%);
+	z-index: -10;
+}
+.facilis_content li{
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	padding: 0 0 15px 0;
+	background: #EEE;
+	margin: 15px 0;
+	width:32%;
+	margin-top: 0px;
+}
+.facilis_content li:nth-child(2){
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.facilis_content li:nth-child(5){
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.facilis_content li img{
+	width: 100%;
+	padding-bottom: 10px;
+}
+.facilis_content p{
+	color:#979797;
+}
+#footer_widget_area{
+	background: #eeeeee;
+}
+#footer_widget_area li {
+	display: inline-block;
+	width:22%;
+	text-align:left;
+
+}
+.single_footer_widget{
+	display: flex;
+	flex-direction: column;
+	padding: 30px 20px;
+
+}
+
+.single_footer_widget h3{
+	color:#2c2c2c;
+	padding-bottom: 20px;
+	font-size: 19px;
+
+}
+.single_footer_widget p{
+	color:#7c7c7c;
+
+}
+.single_footer_widget li{
+	display: block !important;
+	width:100% !important;
+	padding: 5px 0;
+	border-bottom: 1px solid #c4c4c4;
+}
+.single_footer_widget li a{
+	color:#1F232C;
+	text-decoration: none;
+
+	padding:3px 0;
+}
+#a_tag{
+	text-align: right;
+	text-decoration: none;
+	color:#1F232C;
+}
+.foot_form input{
+	border:none;
+	margin: 10px 0;
+	border-radius: 5px;
+	display: block;
+	padding: 8px 20px;
+
+}
+.foot_form input[type="submit"]{
+	background: #1F232C;
+	color:#fff;
+	font-weight: bold;
+	padding: 10px 20px;
+	cursor: pointer;
+
+}
+#foot p{
+	background: #1F232C;
+	padding: 20px;
+	color:#fff;
+	overflow: hidden;
+}
+#foot p span:nth-child(1){
+	float: left;
+}
+#foot p span:nth-child(2){
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

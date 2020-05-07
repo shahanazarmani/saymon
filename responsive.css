@@ -1,0 +1,234 @@
+@media only screen and (max-width: 767px){
+	.full_wrapper{
+		width:300px;
+		padding: 0;	
+	}
+
+	.left_logo {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.right_menu {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.top_search {
+		margin-top: 20px;
+	}
+
+	.top_search button {
+		right: 9%;
+	}
+
+	.ct_content {
+		flex-direction: column;
+	}
+	.ct_content h2 {
+		text-align: center;
+		flex-basis: 100%;
+	}
+
+	.ct_content a {
+		font-size: 17px;
+		margin-top: 20px;
+		flex-basis: 100%;
+	}
+
+	#services li{
+		display: block;
+		width:100%;
+		padding-left: 44%;
+		box-sizing: border-box;
+		margin: 10px 0;
+
+	}
+
+	.single_services h4 {
+		font-size: 16px;
+	}
+
+	#facilis {
+		padding: 5px 15px;
+	}
+
+	.facilis_title h3 {
+		top: -9px;
+		font-size: 15px;
+	}
+
+	.facilis_title h3::before {
+		width: 56%;	
+	}
+
+	.facilis_content li {
+		display: block;
+		width: 100%;
+	}
+
+	.facilis_content li:nth-child(2){
+		margin-left:0 ;
+		margin-right:0 ;
+	}
+
+	.facilis_content li:nth-child(5){
+		margin-left:0 ;
+		margin-right:0;
+	}
+
+	#footer_widget_area li {
+		display: block;
+		width: 100%;
+	}
+
+	#foot p span:nth-child(2) {
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 676px){
+	.full_wrapper {
+		width: 460px;
+	}
+
+	.top_search button {
+		right: 24%;
+	}
+	.main_menu ul a {
+		padding: 10px 5px;
+		font-size: 11px;
+	}
+
+	#services li {
+		padding-left: 30%;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+.full_wrapper {
+	width: 768px;
+	padding: 0;
+}
+
+.ct_content h2 {
+	font-size: 21px;
+	line-height: 29px;
+}
+
+.ct_content a {
+	font-size: 18px;
+	padding: 10px 30px;
+
+}
+
+#services li {
+	display: block;
+	width: 100%;
+	padding-left: 18%;
+	box-sizing: border-box;
+	margin: 10px 0;
+}
+
+.single_services p {
+	font-size: 17px;
+}
+
+#facilis {
+	padding: 20px 20px;
+}
+
+.facilis_title h3::before {
+	width: 31%;
+}
+
+.facilis_content li:nth-child(2){
+		margin-left:5px ;
+		margin-right:5px ;
+}
+
+.facilis_content li:nth-child(5){
+		margin-left:5px;
+		margin-right:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
